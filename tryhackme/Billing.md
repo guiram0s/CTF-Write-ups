@@ -161,7 +161,7 @@ graph TD
 
 ## Remediation Recommendations
 
-### 🔧 Immediate Actions
+### Immediate Actions
 - Patch MagnusBilling to the latest version.
 - Revoke NOPASSWD sudo privileges for `fail2ban-client`.
 - Rotate all credentials found in configuration files.
