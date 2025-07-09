@@ -1,4 +1,4 @@
-# Hack The Box - Lo-Fi Machine Writeup
+# TryHackMe - Oracle9 Machine Writeup
 
 ## Target Info
 

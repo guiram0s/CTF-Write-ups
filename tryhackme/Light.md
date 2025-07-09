@@ -157,7 +157,7 @@ Password: WObjufHX1foR8d7
 **Output**:
 
 ```
-mamZtAuMlrsEy5bp6q17,THM{SQLit3_InJ3cTion_is_SimplE_nO?}
+mamZtAuMlrsEy5bp6q17,THM{...........}
 ```
 
 **Query Usernames**:
@@ -176,8 +176,8 @@ TryHackMeAdmin,flag
 
 ## Flags
 
-- **User Flag**: `vYQ5ngPpw8AdUmL` (smokey's password)
-- **Root/Admin Flag**: `THM{SQLit3_InJ3cTion_is_SimplE_nO?}`
+- **User Flag**: `..........` (smokey's password)
+- **Root/Admin Flag**: `THM{...........}`
 
 ---
 

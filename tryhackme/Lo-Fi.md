@@ -1,5 +1,5 @@
 
-# Hack The Box – Lo-Fi Write-Up
+# TryHackMe – Lo-Fi Write-Up
 
 **Machine Name**: Lo-Fi  
 **Difficulty**: Easy  
@@ -71,7 +71,7 @@ http://10.10.40.57/?page=../../../../../flag.txt
 The server responded with:
 
 ```
-flag{e4478e0eab69bd642b8238765dcb7d18}
+flag{.............}
 ```
 
 ---

@@ -54,7 +54,7 @@ msf6 exploit() > exploit
 ```bash
 meterpreter > cat /home/magnus/user.txt
 ```
-**User Flag**: `THM{4a6831d5f124b25eefb1e92e0f0da4ca}`
+**User Flag**: `THM{............}`
 
 ### Credential Discovery
 
@@ -131,7 +131,7 @@ sudo fail2ban-client -c /tmp/fail2ban/ -v restart
 ```bash
 cat /root/root.txt
 ```
-**Flag**: `THM{33ad5b530e71a172648f424ec23fae60}`
+**Flag**: `THM{.......}`
 
 ---
 
