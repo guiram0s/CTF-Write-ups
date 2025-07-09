@@ -1,6 +1,6 @@
 # MagnusBilling 7.0 CTF Write-up
 
-## Executive Summary
+## Summary
 This report documents the exploitation of a MagnusBilling v7.0 server during a Capture The Flag (CTF) challenge. A critical unauthenticated RCE vulnerability (CVE-2023-30258) was used to gain a foothold on the server, followed by a privilege escalation leveraging misconfigured sudo permissions on `fail2ban-client`.
 
 ---
@@ -68,9 +68,9 @@ dbpass = BLOGYwvtJkI7uaX5
 
 ---
 
-### ⚙️ Privilege Escalation
+### Privilege Escalation
 
-#### 🔍 Check sudo permissions:
+#### Check sudo permissions:
 ```bash
 sudo -l
 ```
@@ -80,7 +80,7 @@ User asterisk may run the following commands on Billing:
     (ALL) NOPASSWD: /usr/bin/fail2ban-client
 ```
 
-#### 🚀 Local Privilege Escalation with `fail2ban-client`
+#### Local Privilege Escalation with `fail2ban-client`
 
 **1. Copy Fail2Ban config:**
 ```bash
@@ -127,7 +127,7 @@ sudo fail2ban-client -c /tmp/fail2ban/ -v restart
 
 ---
 
-### 🏁 Root Flag
+### Root Flag
 ```bash
 cat /root/root.txt
 ```
@@ -135,7 +135,7 @@ cat /root/root.txt
 
 ---
 
-## 📊 Attack Flow (Graph)
+## Attack Flow (Graph)
 
 ```mermaid
 graph TD
@@ -149,7 +149,7 @@ graph TD
 
 ---
 
-## 🛑 Critical Findings
+## Critical Findings
 
 | Vulnerability                         | Risk      | Impact                  |
 |--------------------------------------|-----------|--------------------------|
@@ -159,34 +159,34 @@ graph TD
 
 ---
 
-## ✅ Remediation Recommendations
+## Remediation Recommendations
 
-### 🔧 Immediate Actions
+### Immediate Actions
 - Patch MagnusBilling to the latest version.
 - Revoke NOPASSWD sudo privileges for `fail2ban-client`.
 - Rotate all credentials found in configuration files.
 
-### 🧰 Long-Term Improvements
+### Long-Term Improvements
 - Enforce least privilege principle across all services.
 - Perform regular vulnerability scans and patch assessments.
 - Apply application allowlisting and endpoint protection.
 
-### 🔐 Defensive Measures
+### Defensive Measures
 - Restrict remote access to admin interfaces.
 - Monitor sudo activity and critical file access logs.
 - Deploy a host-based intrusion detection system (HIDS).
 
 ---
 
-## 📎 Appendices
+## Appendices
 
-### 📚 Technical References
+### Technical References
 - [CVE-2023-30258](https://nvd.nist.gov/vuln/detail/CVE-2023-30258)
 - [Fail2Ban Local Privilege Escalation](https://juggernaut-sec.com/fail2ban-lpe/)
 
 ---
 
-## 🗓️ Timeline
+## Timeline
 - **Discovery**: 2025-03-25  
 - **Exploitation**: 2025-03-25  
 - **Report Generated**: 2025-03-26
