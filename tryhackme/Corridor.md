@@ -1,4 +1,4 @@
-# Corridor — HTB Web Challenge Write-up
+# Corridor — THM Web Challenge Write-up
 
 **Challenge Name:** Corridor  
 **IP Address:** `10.10.85.247`  
