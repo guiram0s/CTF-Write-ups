@@ -16,7 +16,7 @@ After visiting the target IP (`http://10.10.85.247`), I encountered a webpage th
 http://10.10.85.247/<hash>
 ```
 
-Each path appeared to be an **MD5 hash**, suggesting an Insecure Direct Object Reference (IDOR) vulnerability using hashed values.
+Each path appeared to be in a *hash* format, suggesting an Insecure Direct Object Reference (IDOR) vulnerability using hashed values.
 
 ---
 
@@ -25,7 +25,7 @@ Each path appeared to be an **MD5 hash**, suggesting an Insecure Direct Object R
 I extracted one example hash from the URL:  
 `c4ca4238a0b923820dcc509a6f75849b`
 
-I suspected it was the hash of a number, so I used `hashcat` to attempt to crack it:
+I used `hashcat` to attempt to crack it:
 
 ```bash
 hashcat -m 0 -a 0 c4ca4238a0b923820dcc509a6f75849b /usr/share/wordlists/rockyou.txt --force
