@@ -3,7 +3,7 @@
 **Machine Name:** U.A. High School  
 **IP Address:** 10.10.11.182  
 **Operating System:** Ubuntu Linux  
-**Difficulty:** Medium  
+**Difficulty:** Easy  
 **Author:** Unknown  
 **Date of Writeup:** August 7, 2025
 
