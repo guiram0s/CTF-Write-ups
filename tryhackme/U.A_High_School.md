@@ -50,7 +50,6 @@ ffuf -u http://10.10.158.105/assets/FUZZ -w /usr/share/wordlists/dirb/common.txt
 
 Interesting files:
 - `/assets/index.php` (blank page)
-- `/assets/images/oneforall.jpg`
 
 ### Parameter Fuzzing for RCE
 
