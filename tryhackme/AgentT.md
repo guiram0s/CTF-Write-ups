@@ -108,7 +108,7 @@ The `flag.txt` file was sitting right at the base of the file system. I read the
 
 ```bash
 $ cat /flag.txt             
-flag{4127d0530abf16d6d23973e3df8dbecb}
+flag{........}
 ```
 
 ---
