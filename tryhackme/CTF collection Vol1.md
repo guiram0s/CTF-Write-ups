@@ -1,8 +1,11 @@
 # TryHackMe - CTF collection Vol.1
 
 **Machine Name:** CTF collection Vol.1
+
 **Difficulty:** Easy / Medium
+
 **Category:** Cryptography / Steganography / Forensics / OSINT
+
 **IP Address:** N/A (Local Files & Web)
 
 ## Description
