@@ -1,8 +1,11 @@
 # TryHackMe - Madness
 
 **Machine Name:** Madness 
+
 **Difficulty:** Easy/Medium  
+
 **Category:** Steganography / Web Enumeration / Forensics / Privilege Escalation  
+
 **IP Address:** 10.114.160.177  
 
 ---
