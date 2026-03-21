@@ -8,7 +8,9 @@
 
 **IP:** 10.129.130.120  
 
-**Summary:** This machine focuses on web application exploitation and Linux privilege escalation. The attack path involved comprehensive web enumeration, bypassing authentication via SQL Injection, and exploiting an arbitrary file upload vulnerability in the Traffic Offense Management System (TOMS) to get a foothold. After gaining a shell, I moved laterally by hijacking a poorly permissioned cron job script, and finally escalated to root by abusing a misconfigured `doas` rule with OpenSSL.
+**Summary:** 
+-
+This machine focuses on web application exploitation and Linux privilege escalation. The attack path involved comprehensive web enumeration, bypassing authentication via SQL Injection, and exploiting an arbitrary file upload vulnerability in the Traffic Offense Management System (TOMS) to get a foothold. After gaining a shell, I moved laterally by hijacking a poorly permissioned cron job script, and finally escalated to root by abusing a misconfigured `doas` rule with OpenSSL.
 
 ## Recon
 
