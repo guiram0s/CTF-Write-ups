@@ -1,6 +1,7 @@
 # PicoCTF - Crack the gate 2 Write-up:
 
 Category: Rate Limit Bypass (Web)
+Dificulty: Medium
 
 ## 1. Reconnaissance & Initial Enumeration
 The objective of this challenge was to brute-force a login portal for the user `ctf-player@picoctf.org` using a provided wordlist of 20 passwords. 
